@@ -1,7 +1,18 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+import "@fontsource/ibm-plex-sans/400.css"
+import "@fontsource/ibm-plex-sans/500.css"
+import "@fontsource/ibm-plex-sans/600.css"
+import "@fontsource/ibm-plex-sans/700.css"
+import "@fontsource/jetbrains-mono/500.css"
+import "@fontsource/jetbrains-mono/700.css"
+import "@fontsource/noto-sans-kr/400.css"
+import "@fontsource/noto-sans-kr/500.css"
+import "@fontsource/noto-sans-kr/700.css"
+import "@mdi/font/css/materialdesignicons.css"
+import "./src/styles/main.scss"
 
-// You can delete this file if you're not using it
+import React from "react"
+import { ThemeProvider } from "./src/context/theme-context"
+
+export const wrapRootElement = ({ element }) => (
+  <ThemeProvider>{element}</ThemeProvider>
+)
