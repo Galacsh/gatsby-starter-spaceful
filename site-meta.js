@@ -8,7 +8,7 @@ const meta = {
   postsPerList: 3,
   // 'en' or 'ko'
   language: "ko",
-  themeColor: `#1b1e2b`,
+  themeColor: `#686FFF`,
 }
 
 module.exports = { meta }
