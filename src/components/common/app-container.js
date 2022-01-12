@@ -7,8 +7,8 @@ const AppContainer = ({ children }) => {
   return (
     <div
       style={{
-        minWidth: width > 160 ? width : "160px",
-        minHeight: height,
+        minWidth: width > 160 ? `calc(${width}px - 2rem)` : "160px",
+        minHeight: height != null && height > 0 ? height : "100vh",
       }}
       className={"app"}
     >

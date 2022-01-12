@@ -6,8 +6,6 @@ tags: ["Markdown", "MD", "With tag"]
 thumbnail: "img/profile.png"
 ---
 
-You will like those projects!
-
 # h1 Heading 8-)
 
 ## h2 Heading
@@ -73,7 +71,7 @@ Start numbering with offset:
 
 ## Code
 
-Inline `code`
+Inline `js@let code = "hello";`
 
 Indented code
 
