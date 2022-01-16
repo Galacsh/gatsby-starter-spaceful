@@ -5,7 +5,6 @@ const meta = {
   siteUrl: "https://galacsh.github.io",
   // if prefix is not needed, remove this.
   pathPrefix: "/gatsby-starter-spaceful",
-  postsPerList: 3,
   // 'en' or 'ko'
   language: "ko",
   themeColor: `#686FFF`,

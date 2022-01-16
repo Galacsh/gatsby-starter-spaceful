@@ -69,7 +69,6 @@
       margin-bottom: 1rem;
     }
     & img {
-      max-height: 31.25rem;
       object-fit: contain;
     }
   }
@@ -104,6 +103,8 @@
   }
   & table {
     & {
+      display: block;
+      overflow-x: auto;
       border-collapse: collapse;
       width: calc(100% - 2rem);
     }
